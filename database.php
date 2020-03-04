@@ -11,7 +11,7 @@
 
     $sql =
     "SELECT *
-     FROM 'stanze'";
+     FROM `stanze`";
     $result = $conn->query($sql);
 
     if ($result && $result->num_rows > 0) {
@@ -20,6 +20,7 @@
          // echo 'ID' . $row['id'] . ' - floor: ' .$row['floor'];
          $rooms[] = $row;
 
+      }
     }
     elseif ($result) {
       echo 'No results';
