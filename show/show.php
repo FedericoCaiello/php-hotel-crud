@@ -2,7 +2,6 @@
   include 'server.php';
   include __DIR__ . '/../partials/header.php';
  ?>
- <?php include __DIR__ . '/../partials/footer.php'; ?>
 
   <body>
     <div class="container">
@@ -28,3 +27,5 @@
 
   </body>
 </html>
+
+<?php include __DIR__ . '/../partials/footer.php'; ?>
