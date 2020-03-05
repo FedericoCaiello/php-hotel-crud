@@ -1,10 +1,7 @@
 <?php
-  include 'database.php';
+  include 'server.php';
   include 'partials/header.php';
  ?>
-
-
-   <body>
      <div class="container">
        <div class="row">
          <div class="col-12">
@@ -38,6 +35,4 @@
          </div>
        </div>
      </div>
-
-   </body>
- </html>
+     <?php include 'partials/footer.php'; ?>
