@@ -18,8 +18,8 @@
              </thead>
              <tbody>
                <?php
-               if (!empty($rooms)) {
-                 foreach ($rooms as $room) { ?>
+               if (!empty($results)) {
+                 foreach ($results as $room) { ?>
                    <tr>
                      <td><?php echo $room['id'] ?></td>
                      <td><?php echo $room['floor'] ?></td>

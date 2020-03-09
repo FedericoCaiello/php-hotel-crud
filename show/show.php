@@ -9,9 +9,6 @@
         <div class="col-12">
           <div class="card">
             <ul>
-              <?php
-              include 'server.php';
-              ?>
               <h1>Room Number:<?php echo $room['room_number']  ?> </h1>
               <li>Floor:<?php echo $room['floor'] ?> </li>
               <li>Number ID:<?php echo $room['id'] ?> </li>
